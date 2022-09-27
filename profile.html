@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page - Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/508c111fc7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <a href="index.html"><img src="images/logo.png" class="logo"></a>
+        <ul>
+           
+            <li><img src="images/notification.png"></li>
+            <li><img src="images/inbox.png"></li>
+            <li><img src="images/video.png"></li>
+        </ul>
+        </div>
+        
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/Profile_Pic.jpg">
+            </div>
+            
+        </div>
+        <!-- ------dropdown-settings-menu--------- -->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/Profile_Pic.jpg">
+                    <div>
+                        <p>Leon S Kennedy</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="">Help us improve the new deisgn</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-- ----profile page --------- -->
+
+<div class="profile-container">
+    <img src="images/Cover.jpg" class="cover-img">
+    <div class="profile-details">
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="images/Profile_Pic.jpg" class="pd-image">
+                <div>
+                    <h3>Leon S Kennedy</h3>
+                    <p>303 Friends</p>
+                    <img src="images/Chat_1.png">
+                    <img src="images/Chat_2.jpg">
+                    <img src="images/Chat_3.jpg">
+                    <img src="images/Chat_4.jpg">
+                    <img src="images/Chat_5.jpg">
+                    <img src="images/Chat_6.jpg">
+                    <img src="images/Chat_7.jpg">
+                    <img src="images/Chat_8.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="pd-right">
+
+            <button type="button"><img src="images/upload.png"> Add to Story</button>
+            <button type="button"><img src="images/edit.png"> Edit Profile</button>
+            <br>
+            <a href=""><img src="images/more.png"></a>
+        </div>
+    </div>
+
+    <div class="profile-info">
+        <div class="info-col">
+
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="images/feeling.png"></p>
+                <hr>
+                <ul>
+                    <li><img src="images/profile-study.png"> Studing at Institute of Engineering & Management</li>
+                    <li><img src="images/profile-study.png"> Went to Kalyan Nager Vidhyapith</li>
+                    <li><img src="images/profile-home.png"> Lives in Kolkata, India</li>
+                    <li><img src="images/profile-location.png"> From Kolkata, India</li>
+                </ul>
+            </div>
+
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                    <a href="">All Photos</a>
+                </div>
+                
+                <div class="photo-box">
+                    <div><img src="images/Feed_Post1.jpg"></div>
+                    <div><img src="images/Feed_Post2.jpg"></div>
+                    <div><img src="images/Feed_Post5.jpg"></div>
+                    <div><img src="images/Feed_Post4.jpg"></div>
+                    <div><img src="images/Feed_Post7.jpg"></div>
+                    <div><img src="images/Feed_Post8.jpg"></div>
+                    <div><img src="images/Feed_Post9.jpg"></div>
+                    <div><img src="images/Feed_Post10.jpg"></div>
+                    <div><img src="images/Feed_Post11.jpg"></div>
+                </div>
+            </div>
+
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Friends</h3>
+                    <a href="">All Friends</a>
+                </div>
+                <p>303</p>
+                <div class="friends-box">
+                    <div><img src="images/Chat_1.png"> <p>Alisa</p></div>
+                    <div><img src="images/Chat_2.jpg"> <p>Iana</p></div>
+                    <div><img src="images/Chat_3.jpg"> <p>Dante</p></div>
+                    <div><img src="images/Chat_4.jpg"> <p>Prophet</p></div>
+                    <div><img src="images/Chat_5.jpg"> <p>Batman</p></div>
+                    <div><img src="images/Chat_6.jpg"> <p>Sam Fisher</p></div>
+                    <div><img src="images/Chat_7.jpg"> <p>Damocles</p></div>
+                    <div><img src="images/Chat_8.jpg"> <p>Fade</p></div>
+                    <div><img src="images/Chat_9.png"> <p>Jett</p></div>
+                </div>
+            </div>
+
+            
+
+
+
+        </div>
+
+
+
+        <div class="post-col">
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/Profile_Pic.jpg">
+                    <div>
+                        <p>Leon S Kennedy</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+    
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Leon?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png"> Live Video</a>
+                        <a href="#"><img src="images/photo.png"> Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png"> Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/Profile_Pic.jpg">
+                        <div>
+                            <p>Leon S Kennedy</p>
+                            <span>September 12 2022, 01:55 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Also waiting for the Resident Evil Village Winter Expansion.</p>
+                <img src="images/Feed_Post1.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png"> 120</div>
+                        <div><img src="images/comments.png"> 45</div>
+                        <div><img src="images/share.png"> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile_Pic.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/Profile_Pic.jpg">
+                        <div>
+                            <p>Leon S Kennedy</p>
+                            <span>September 12 2022, 01:51 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Really looking forward to play this game cuz the previous part was a blast.</p>
+                <img src="images/Feed_Post2.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 120</div>
+                        <div><img src="images/comments.png"> 45</div>
+                        <div><img src="images/share.png"> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile_Pic.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/Profile_Pic.jpg">
+                        <div>
+                            <p>Leon S Kennedy</p>
+                            <span>July 19 2022, 12:08 AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">9 Hours left to release.</p>
+                <img src="images/Feed_Post3.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 120</div>
+                        <div><img src="images/comments.png"> 45</div>
+                        <div><img src="images/share.png"> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile_Pic.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/Profile_Pic.jpg">
+                        <div>
+                            <p>Leon S Kennedy</p>
+                            <span>June 20 2022, 11:35 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Can't wait to play this game.😍</p>
+                <img src="images/Feed_Post4.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 120</div>
+                        <div><img src="images/comments.png"> 45</div>
+                        <div><img src="images/share.png"> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile_Pic.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/Profile_Pic.jpg">
+                        <div>
+                            <p>Leon S Kennedy</p>
+                            <span> June 11 2022, 10:07 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Outriders.</p>
+                <img src="images/Feed_Post5.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 120</div>
+                        <div><img src="images/comments.png"> 45</div>
+                        <div><img src="images/share.png"> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile_Pic.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/Profile_Pic.jpg">
+                        <div>
+                            <p>Leon S Kennedy</p>
+                            <span>May 29 2022, 11:27 AM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Magnificent.</p>
+                <img src="images/Feed_Post6.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png"> 120</div>
+                        <div><img src="images/comments.png"> 45</div>
+                        <div><img src="images/share.png"> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/Profile_Pic.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+    <div class="footer">
+        <p>Copyright © 2022 - Subhrajyoti Sarkar</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
